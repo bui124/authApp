@@ -1,6 +1,4 @@
-
-
-/* EXPRESS SETUUP*/
+/* EXPRESS SETUP */
 
 const express = require('express');
 const app = express();
@@ -111,7 +109,7 @@ app.get('/logout',
             )
     });
 
-/*REGISTER SOME USERS*/
+/* REGISTER SOME USERS */
 
 UserDetails.register({ username: 'paul', active: false }, 'paul');
 UserDetails.register({ username: 'joy', active: false }, 'joy');
